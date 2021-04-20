@@ -6,9 +6,13 @@ import ContactBar from '../components/index/ContactBar'
 export default function Home () {
   return (
     <Container backgroundColor="#ffffff">
-      <LogoBar />
-      <ContactBar />
-      <SkillBar />
+      <div className="flex flex-wrap justify-center">
+        <div>
+          <LogoBar />
+          <ContactBar />
+        </div>
+        <SkillBar />
+      </div>
     </Container>
   )
 }

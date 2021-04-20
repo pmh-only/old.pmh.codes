@@ -79,7 +79,7 @@ export default function BackendDemo () {
   return (
     <div>
       <h3 className="text-left text-white">Simple Authentication Demo</h3>
-      <motion.div className="flex flex-wrap justify-evenly border border-dashed" transition={{ delay: 0.3 }} initial={{ opacity: 0, rotateZ: 4 }} animate={{ opacity: 1, rotateZ: 0 }}>
+      <motion.div className="flex flex-wrap max-w-5xl justify-evenly border border-dashed" transition={{ delay: 0.3 }} initial={{ opacity: 0, rotateZ: 4 }} animate={{ opacity: 1, rotateZ: 0 }}>
         <motion.div transition={{ delay: 0.4 }} initial={{ translateY: 100, translateX: 100, opacity: 0 }} animate={{ translateY: 0, translateX: 0, opacity: 1 }}>
           <Draggable>
             <div id="form" className="m-5 p-5 relative z-20 cursor-move bg-white rounded hover:shadow-xl transition-shadow shadow-lg">

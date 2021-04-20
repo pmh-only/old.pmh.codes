@@ -4,11 +4,7 @@ import { faServer, faWindowRestore, faDesktop, faGamepad, faRobot, faBrain } fro
 
 export default function SkillBar () {
   return (
-    <div className="my-10">
-      <div className="flex justify-between items-end">
-        <motion.h1 initial={{ translateX: -99999 }} animate={{ translateX: 0 }} whileHover={{ skewX: -10, fontWeight: 100 }} className="text-2xl text-left mx-5">I can...</motion.h1>
-        <motion.p initial={{ translateX: 99999 }} animate={{ translateX: 0 }} whileHover={{ skewX: 10, fontWeight: 100 }} className="text-right text-sm mx-5">*Click Categories</motion.p>
-      </div>
+    <div className="my-10 max-w-2xl">
       <motion.div className="pt-2 pb-3 text-center flex flex-wrap justify-center">
         <SkillBtn url="/categories/backend" icon={faServer} color="#bf616a" title="BackEnd" subtitle="Security • API • RDB"/>
         <SkillBtn url="/categories/frontend" icon={faWindowRestore} color="#d08770" title="FrontEnd" subtitle="React • SSR • UI/UX"/>
