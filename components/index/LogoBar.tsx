@@ -4,8 +4,6 @@ import Image from 'next/image'
 const placeholder = 'data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAIxAAAgIABgIDAQAAAAAAAAAAAQQCAwAFBgcRIRMxEiJhUv/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/8QAGREAAgMBAAAAAAAAAAAAAAAAABEBAiES/9oADAMBAAIRAxEAPwCHthlE93c/Zu8GU5MgpXXVYqnQYylGPqRII5l2Tz+YQv7daNXfZpZzZY312ShYZV2kmQJB5Py77xkmwj7aOqnCk0wuZLd+Kww5+8ffB/cJdSMXy1FmhN1hJatJJkf7OL5eCbLT/9k='
 
 export default function LogoBar () {
-  console.log(placeholder)
-
   return (
     <motion.div initial={{ scale: 1.4 }} animate={{ scale: 1 }} className="pt-7 pb-3 text-center">
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} whileHover={{ skew: -2 }}>
