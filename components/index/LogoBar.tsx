@@ -8,10 +8,10 @@ export default function LogoBar () {
     <motion.div initial={{ scale: 1.4 }} animate={{ scale: 1 }} className="pt-7 pb-3 text-center">
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} whileHover={{ skew: -2 }}>
         <img className="absolute rounded-lg z-10" width="300" height="300" src={placeholder} alt="" />
-        <Image className="absolute left-0 rounded-lg z-20" src="/img/profile.jpg" width="300" height="300" />
+        <Image className="absolute left-0 rounded-lg z-20" src="/img/profile.jpg" width="300" height="300" priority/>
       </motion.div>
-      <motion.h3 whileHover={{ skewX: 10, fontStyle: 'italic', color: '#aaaaaa' }} className="text-2xl font-bold">Park Min Hyeok</motion.h3>
-      <motion.p whileHover={{ skewX: 10, fontStyle: 'italic', color: '#aaaaaa' }} className="mt-1">multi-position developer</motion.p>
+      <motion.h3 whileHover={{ skewX: 10, fontStyle: 'italic', color: '#aaaaaa' }} className="text-white text-2xl font-serif">Park Min Hyeok</motion.h3>
+      <motion.p whileHover={{ skewX: 10, fontStyle: 'italic', color: '#aaaaaa' }} className="text-white mt-1 font-serif">multi-position developer</motion.p>
     </motion.div>
   )
 }

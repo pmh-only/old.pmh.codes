@@ -4,16 +4,17 @@ import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 const urls = [
-  'https://outgo.intraedu.kr',
+  // 'https://outgo.intraedu.kr',
   'https://study.trinets.xyz',
   'https://andro.trinets.xyz',
+  'https://lofi.pmh.codes',
   'https://checks.trinets.xyz',
   'https://e.pmh.codes',
   'https://star.pmh.codes',
   'https://alpha.pmh.codes',
   'https://settings.trinets.xyz',
   'https://hcs.trinets.xyz',
-  'https:/intraedu.kr',
+  'https://intraedu.kr',
   'https://eodi.ga'
 ]
 
