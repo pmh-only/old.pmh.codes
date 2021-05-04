@@ -7,6 +7,10 @@
     "build": "next build",
     "start": "next start"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmh-only/new.pmh.codes.git"
+  },
   "dependencies": {
     "@fontsource/noto-sans-kr": "^4.2.2",
     "@fontsource/noto-serif-kr": "^4.2.2",
