@@ -3,10 +3,10 @@ import Container from '../../Container'
 
 export default function IntroduceSkills () {
   const { scrollYProgress } = useViewportScroll()
-  const translateX4 = useTransform(scrollYProgress, [0.6, 0.8], [+1000, 0])
+  const translateX = useTransform(scrollYProgress, [0.6, 0.8], [1000, 0])
 
   return (
-    <motion.div className="h-screen" style={{ translateX: translateX4 }}>
+    <motion.section id="skills" className="h-screen" style={{ translateX }}>
       <div className="h-screen bg-yellow-500 w-5/6 lg:w-2/3 absolute right-0"></div>
       <Container backgroundColor="#ffffff00">
         <div className="h-screen">
@@ -26,6 +26,6 @@ export default function IntroduceSkills () {
           </div>
         </div>
       </Container>
-    </motion.div>
+    </motion.section>
   )
 }

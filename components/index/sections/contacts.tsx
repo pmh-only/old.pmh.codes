@@ -6,10 +6,10 @@ import Container from '../../Container'
 
 export default function IntroduceContacts () {
   const { scrollYProgress } = useViewportScroll()
-  const translateX5 = useTransform(scrollYProgress, [0.8, 1], [-1000, 0])
+  const translateX = useTransform(scrollYProgress, [0.8, 1], [-1000, 0])
 
   return (
-    <motion.div className="h-screen" style={{ translateX: translateX5 }}>
+    <motion.section id="contacts" className="h-screen" style={{ translateX }}>
       <div className="h-screen bg-purple-500 w-full absolute left-0"></div>
       <Container backgroundColor="#ffffff00">
         <div className="h-screen">
@@ -19,7 +19,7 @@ export default function IntroduceContacts () {
               <h2 className="font-bold mt-2 text-sm sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">소통합니다_</h2>
             </div>
             <div className="text-right text-white my-5">
-              <h2 className="font-bold border-b-4 border-white border-opacity-20 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Con</h2>
+              <h2 className="font-bold border-b-4 border-white border-opacity-20 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Con-</h2>
               <h2 className="font-bold border-b-4 border-white border-opacity-20 -mt-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">tacts.</h2>
             </div>
           </div>
@@ -35,6 +35,6 @@ export default function IntroduceContacts () {
           </div>
         </div>
       </Container>
-    </motion.div>
+    </motion.section>
   )
 }

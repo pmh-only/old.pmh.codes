@@ -4,14 +4,14 @@ import IntroduceAwards from './sections/awards'
 import IntroduceSkills from './sections/skills'
 import IntroduceContacts from './sections/contacts'
 
-export default function IntroduceBar () {
+export default function IntroduceSection () {
   return (
-    <div style={{ marginTop: '100vh' }}>
-      <IntroduceProjects />
-      <IntroduceHistory />
-      <IntroduceAwards />
-      <IntroduceSkills />
-      <IntroduceContacts />
+    <div id="introduce" style={{ marginTop: '150vh' }}>
+      <IntroduceProjects/>
+      <IntroduceHistory/>
+      <IntroduceAwards/>
+      <IntroduceSkills/>
+      <IntroduceContacts/>
     </div>
   )
 }
