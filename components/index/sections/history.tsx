@@ -3,8 +3,8 @@ import Container from '../../Container'
 
 export default function IntroduceHistory () {
   const { scrollYProgress } = useViewportScroll()
-  const translateX = useTransform(scrollYProgress, [0.2, 0.4], [1000, 0])
-  const backgroundPositionX = useTransform(scrollYProgress, [0.2, 0.4], [1000, 0])
+  const translateX = useTransform(scrollYProgress, [0.4, 0.65], [1000, 0])
+  const backgroundPositionX = useTransform(scrollYProgress, [0.4, 0.65], [1000, 0])
 
   return (
     <motion.section id="history" className="h-screen" style={{ translateX, backgroundPositionX, background: 'url(\'/img/coop.png\')' }}>

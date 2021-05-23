@@ -20,16 +20,16 @@ export default function TopSection () {
                 </div>
               </div>
               <div className="text-center">
-                <motion.div initial={{ opacity: 0 }} style={{ scale }} animate={{ translateY: -50, opacity: 1 }} className="inline-block lg:hidden border-b-2 text-white border-purple-300">
+                <motion.a href="#introduce" initial={{ opacity: 0 }} style={{ scale }} animate={{ translateY: -50, opacity: 1 }} className="inline-block lg:hidden border-b-2 text-white border-white">
                   스크롤을 내려 더 자세히 보기
-                </motion.div>
+                </motion.a>
               </div>
             </div>
           </div>
           <div className="text-center">
-            <motion.div initial={{ opacity: 0 }} style={{ scale }} animate={{ translateY: -50, opacity: 1 }} className="hidden lg:inline-block border-b-2 text-white border-purple-300">
+            <motion.a href="#introduce" initial={{ opacity: 0 }} style={{ scale }} animate={{ translateY: -50, opacity: 1 }} className="hidden lg:inline-block border-b-2 text-white border-white">
               스크롤을 내려 더 자세히 보기
-            </motion.div>
+            </motion.a>
           </div>
         </motion.div>
       </Container>

@@ -7,12 +7,12 @@ export default function IntroduceSkills () {
 
   return (
     <motion.section id="skills" className="h-screen" style={{ translateX }}>
-      <div className="h-screen bg-yellow-500 w-5/6 lg:w-2/3 absolute right-0"></div>
+      <div className="h-screen bg-red-500 w-5/6 lg:w-2/3 absolute right-0"></div>
       <Container backgroundColor="#ffffff00">
         <div className="h-screen">
           <div className="flex flex-warp justify-between">
             <div className="text-left text-white my-5">
-              <h2 className="font-bold border-b-4 border-yellow-500 border-opacity-10 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">skills.</h2>
+              <h2 className="font-bold border-b-4 border-red-500 border-opacity-10 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">skills.</h2>
             </div>
             <div className="text-right tracking-widest text-white opacity-60 my-5">
               <h2 className="font-bold text-sm sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">배움의 즐거움을 느끼고</h2>
